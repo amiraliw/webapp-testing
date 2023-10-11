@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "title": "Hva er en enhetstest?",
+      "answers": [
+        { "answer": "En test som validerer hele applikasjonen" },
+        { "answer": "En test som validerer grensesnittet til en komponent" },
+        {
+          "answer": "En test som validerer en enkelt enhet av koden (f.eks. en funksjon eller metode)",
+          "correct": true
+        },
+        { "answer": "En test som validerer en hel modul" }
+      ],
+      "helper": {
+        "text": "Enhetstester fokuserer på å validere individuelle deler av koden."
+      }
+    },
+    {
+      "title": "Hva er en mocking i testing?",
+      "answers": [
+        { "answer": "En teknikk for å endre koden i produksjonsmiljøet" },
+        {
+          "answer": "En teknikk for å generere falske data i testmiljøet",
+          "correct": true
+        },
+        { "answer": "En teknikk for å deaktivere alle tester midlertidig" },
+        {
+          "answer": "En teknikk for å lage falske brukere for å teste autentisering"
+        }
+      ],
+      "helper": {
+        "text": "Mocking er vanligvis brukt for å simulere eksterne avhengigheter i testene."
+      }
+    },
+    {
+      "title": "Hva er formålet med en end-to-end (E2E) test?",
+      "answers": [
+        { "answer": "Å teste komponenter isolert" },
+        {
+          "answer": "Å validere brukergrensesnittet til en hel applikasjon",
+          "correct": true
+        },
+        { "answer": "Å teste ytelsen til en enkelt funksjon" },
+        { "answer": "Å generere tilfeldige brukerdata for å teste databaser" }
+      ],
+      "helper": {
+        "text": "E2E-tester er designet for å simulere reelle bruksscenarioer i en applikasjon."
+      }
+    },
+    {
+      "title": "Hva er Jest?",
+      "answers": [
+        { "answer": "En JavaScript-rammeverk for nettleserbasert testing" },
+        { "answer": "En JavaScript-rammeverk for server-side testing" },
+        {
+          "answer": "En JavaScript-rammeverk for frontend-testing",
+          "correct": true
+        },
+        { "answer": "En JavaScript-rammeverk for datavisualisering" }
+      ],
+      "helper": {
+        "text": "Jest er et populært rammeverk for å utføre testing i JavaScript-apper."
+      }
+    }
+  ]
+}
